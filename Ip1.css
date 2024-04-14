@@ -1,0 +1,123 @@
+header {
+    background-color: #fefdfd;
+    color: #181717;
+    padding: 1px 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navigation a {
+    color: #090909;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  .navigation a:hover {
+    background-color: #fefcfc;
+  }
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .content {
+    text-align: center;
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+  .centered-text {
+    background-color:rgb(253, 243, 223);
+    padding: 80px;
+    color: darkslategrey;
+   font-size: xx-large;
+    font-weight: bold ;
+    font-style:oblique;
+    
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .background-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+  }
+  
+  .buy-now-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(245, 198, 78);
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-now-button:hover {
+    background-color: #45a049;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .content1 {
+    text-align: center;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 300px;
+  }
+  .centered-text1 {
+    background-color:rgb(250, 250, 250);
+    padding: 40px;
+    color: darkslategrey;
+   font-size: xx-large;
+    font-weight:bolder ;
+    font-style:inherit;
+    
+  }
+  .text3 {
+    margin: 0;
+    margin-left: 27px;
+    margin-right: 27px;
+    display: flex;
+  }
+  
+  .block {
+    flex: 1;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .block img {
+    width: 50px; /* Adjust image size as needed */
+    height: 50px; /* Adjust image size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px;
+  }
